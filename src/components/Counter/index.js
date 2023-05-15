@@ -15,18 +15,18 @@ const Counter = props => {
     <div className="cart-quantity-container">
       <button
         type="button"
-        data-testid="decrement-quantity"
+        testid="decrement-quantity"
         className="quantity-button"
         onClick={onDecrement}
       >
         -
       </button>
-      <p data-testid="item-quantity" className="food-quantity">
+      <p testid="item-quantity" className="food-quantity">
         {quantity}
       </p>
       <button
         type="button"
-        data-testid="increment-quantity"
+        testid="increment-quantity"
         className="quantityy-button"
         onClick={onIncrement}
       >

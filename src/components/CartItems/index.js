@@ -12,7 +12,7 @@ const CartItems = props => (
       const {id, name, cost, quantity, imageUrl} = cartItem
       const itemPrice = cost * quantity
       return (
-        <div data-testid="cartItem" className="cart-items-list">
+        <div testid="cartItem" className="cart-items-list">
           <img className="cart-img" alt={name} src={imageUrl} />
           <div className="cart-items-container">
             <h1 className="item-title">{name}</h1>

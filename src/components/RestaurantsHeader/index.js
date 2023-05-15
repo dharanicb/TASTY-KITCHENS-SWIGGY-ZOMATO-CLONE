@@ -13,7 +13,7 @@ const RestaurantsHeader = props => {
       <h1 className="rest-heading">Popular Restaurants</h1>
       <div className="para-sortBy">
         <p className="rest-para">
-          Select Your favorite restaurant special dish and make your day
+          Select Your favourite restaurant special dish and make your day
           happy...
         </p>
         <div className="sort-by-div">

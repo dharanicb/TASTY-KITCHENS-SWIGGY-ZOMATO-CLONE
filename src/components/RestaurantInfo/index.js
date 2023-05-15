@@ -73,7 +73,7 @@ class RestaurantInfo extends Component {
 
   renderLoader = () => (
     <div
-      data-testid="restaurant-details-loader"
+      testid="restaurant-details-loader"
       className="details-loader-container"
     >
       <Loader type="Oval" color="#F7931E" width="100%" height="100%" />

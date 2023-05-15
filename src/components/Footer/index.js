@@ -25,22 +25,16 @@ export default function Footer() {
       <div className="sm-logos">
         <ul className="sm-list">
           <li className="sm-logo">
-            <FaPinterestSquare
-              data-testid="pintrest-social-icon"
-              color="#FFFFFF"
-            />
+            <FaPinterestSquare testid="pintrest-social-icon" color="#FFFFFF" />
           </li>
           <li className="sm-logo">
-            <FaInstagram data-testid="instagram-social-icon" color="#FFFFFF" />
+            <FaInstagram testid="instagram-social-icon" color="#FFFFFF" />
           </li>
           <li className="sm-logo">
-            <FaTwitter data-testid="twitter-social-icon" color="#FFFFFF" />
+            <FaTwitter testid="twitter-social-icon" color="#FFFFFF" />
           </li>
           <li className="sm-logo">
-            <FaFacebookSquare
-              data-testid="facebook-social-icon"
-              color="#FFFFFF"
-            />
+            <FaFacebookSquare testid="facebook-social-icon" color="#FFFFFF" />
           </li>
         </ul>
       </div>

@@ -26,7 +26,7 @@ const CartTotal = props => {
             <hr className="dash-line" />
             <div className="cart-summary">
               <h1 className="order-total">Order Total:</h1>
-              <p data-testid="total-price" className="total-price">
+              <p testid="total-price" className="total-price">
                 <FaRupeeSign size={14} /> {totalOrderCost}
               </p>
             </div>
